@@ -9,7 +9,7 @@ from pathlib import Path
 
 parser = argparse.ArgumentParser("Capture data for FishQ Pusriskan")
 parser.add_argument('FPS', type=int, help="Capture video in this FPS")
-parser.add_argument('namaFolder',type=str, help="Nama folder untuk menyimpan data",default='/media/fishqi/FISHQ_STORE/RECORDING/')
+parser.add_argument('namaFolder',type=str, help="Nama folder untuk menyimpan data",const='/media/fishqi/FISHQ_STORE/RECORDING/')
 args = parser.parse_args()
 
 
