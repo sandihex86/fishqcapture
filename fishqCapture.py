@@ -9,13 +9,13 @@ from pathlib import Path
 
 parser = argparse.ArgumentParser("Capture data for FishQ Pusriskan")
 parser.add_argument('FPS', type=int, help="Capture video in this FPS")
-parser.add_argument('namaFolder',type=str, help="Nama folder untuk menyimpan data")
+parser.add_argument('namaFolder',type=str, help="Nama folder untuk menyimpan data",default='/media/fishqi/FISHQ_STORE/RECORDING/')
 args = parser.parse_args()
 
 
 
 ''' Script untuk meng-capture data sebelum ditraining 
-    Script date : 18 April 2021
+    Script date : 04 Oktober 2021
 
 
 '''
